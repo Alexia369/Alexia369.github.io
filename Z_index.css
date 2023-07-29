@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('bg.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/**#logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 20%;
+}**/
+
+.content {
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: rgba(236, 236, 236, 0.59);
+}
+
+#topTable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+#portrait {
+  display: block;
+  margin: 0 auto;
+  margin-right: 35px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+#quote {
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  color: #C93226;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.github {
+  border-radius: 20%;
+}
+
+.buttonTen {
+  background-color: #FF0000;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  margin: 5px 0px 5px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.buttonTen:hover {
+  background-color: #FF8000;
+}
+
+.button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  margin: 5px 0px 5px 0px;  
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #777777; 
+  color: white;
+}
+
+.button-container {
+  text-align: center;
+}
